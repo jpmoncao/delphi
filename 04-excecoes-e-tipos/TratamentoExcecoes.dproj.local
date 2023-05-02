@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/01 13:12:33.000.978,=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/01 20:36:52.097,=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/01 20:37:09.318,C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\TratamentoExcecoes.dproj=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/01 20:37:40.958,C:\Users\pedro\dev\_estudos\delphi\04-excecoes-e-tipos\Unit1.dfm=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/01 20:37:40.958,C:\Users\pedro\dev\_estudos\delphi\04-excecoes-e-tipos\Unit1.pas=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/01 20:39:21.991,C:\Users\pedro\dev\_estudos\delphi\04-excecoes-e-tipos\TratamentoExcecoes.dproj=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\TratamentoExcecoes.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

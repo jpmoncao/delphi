@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/05/01 22:39:48.755,=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/01 22:40:22.637,C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\MultForms.dproj=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/01 22:41:49.977,C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\form.pas=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/01 22:41:49.977,C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\form.dfm=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/01 22:41:53.525,C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\MultForms.dproj=C:\Users\pedro\OneDrive\Documentos\Embarcadero\Studio\Projects\MultForms.dproj</Transaction>
+    <Transaction>2023/05/01 23:55:24.089,=C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\Unit2.pas</Transaction>
+    <Transaction>2023/05/01 23:55:44.068,C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\form_2.dfm=C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\Unit2.dfm</Transaction>
+    <Transaction>2023/05/01 23:55:44.068,C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\form_2.pas=C:\Users\pedro\dev\_estudos\delphi\06-mult-forms\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

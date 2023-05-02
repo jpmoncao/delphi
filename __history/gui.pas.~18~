@@ -1,0 +1,69 @@
+unit gui;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TformPrincipal = class(TForm)
+    Panel1: TPanel;
+    Edit1: TEdit;
+    Button1: TButton;
+    Memo1: TMemo;
+    Panel2: TPanel;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    procedure Edit1Change(Sender: TObject);
+    procedure Edit1Click(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+//    procedure Edit1DblClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formPrincipal: TformPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TformPrincipal.Button1Click(Sender: TObject);
+var
+  lCaption, lMessage, lRetorno: string;
+begin
+  lCaption := 'Input Form Iniciante';
+  lMessage :=  'Me diga seu nome?';
+  lRetorno := InputBox(lCaption, lMessage, '');
+  ShowMessage('Seu nome é: ' + lRetorno);
+end;
+
+procedure TformPrincipal.Button2Click(Sender: TObject);
+begin
+  MessageDlg('Estamos ao vivo!', mtInformation, [mbOK], 0);
+end;
+
+procedure TformPrincipal.Edit1Change(Sender: TObject);
+begin
+  Memo1.Lines.Clear;
+  Memo1.Lines.Add(Edit1.Text);
+end;
+
+procedure TformPrincipal.Edit1Click(Sender: TObject);
+begin
+  ShowMessage('SHOW! Estou no evento click');
+end;
+
+//procedure TformPrincipal.Edit1DblClick(Sender: TObject);
+//begin
+//   ShowMessage('SHOW DE BOLA! Estou no evento click duplo');
+//end;
+
+end.
